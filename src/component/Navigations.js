@@ -22,7 +22,7 @@ const Navigation = () => {
               <NavDropdown.Item>
                 <Link to="/Laptops">Hp</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="/Leno">Lenovo</NavDropdown.Item>
+              <NavDropdown.Item><Link to="/Leno">Lenovo</Link></NavDropdown.Item>
               <NavDropdown.Item href="">Dell</NavDropdown.Item>
               <NavDropdown.Item href="#">Asus</NavDropdown.Item>
               <NavDropdown.Item href="">Acer</NavDropdown.Item>
