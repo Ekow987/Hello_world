@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
- import Slider_1 from '../img/hopital-109.jpg';
+ import Slider_1 from '../img/hopital-109.jpeg';
 import Slider_2 from '../img/hops3.jpg';
  import Slider_3 from '../img/hops123.jpg';
 
@@ -16,7 +16,7 @@ function Slider() {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
+      <h3>Sumsumg Galaxy</h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -27,7 +27,7 @@ function Slider() {
       alt="Second Slide"
     />
     <Carousel.Caption>
-      <h3>Second slide label</h3>
+      <h3>Laptops</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -38,7 +38,7 @@ function Slider() {
       alt="Third slide"
     />
     <Carousel.Caption>
-      <h3>Third slide label</h3>
+      <h3>Iphones</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
