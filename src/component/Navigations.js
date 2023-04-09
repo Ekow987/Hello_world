@@ -23,9 +23,9 @@ const Navigation = () => {
                 <Link to="/Laptops">Hp</Link>
               </NavDropdown.Item>
               <NavDropdown.Item><Link to="/Leno">Lenovo</Link></NavDropdown.Item>
-              <NavDropdown.Item href="">Dell</NavDropdown.Item>
-              <NavDropdown.Item href="#">Asus</NavDropdown.Item>
-              <NavDropdown.Item href="">Acer</NavDropdown.Item>
+              <NavDropdown.Item ><Link to="/Mac">Mac book</Link></NavDropdown.Item>
+              <NavDropdown.Item ><Link to="/Dell">Dell</Link></NavDropdown.Item>
+              <NavDropdown.Item> <Link to="#">Accer</Link></NavDropdown.Item>
               <NavDropdown.Divider />
             </NavDropdown>
             <NavDropdown title="Phones" id="collasible-nav-dropdown">
@@ -38,7 +38,7 @@ const Navigation = () => {
               <NavDropdown.Divider />
             </NavDropdown>
             <NavDropdown title="Acessories" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="">Pendrive</NavDropdown.Item>
+              <NavDropdown.Item ><Link to="#">Pendrive</Link></NavDropdown.Item>
               <NavDropdown.Item href="#">Harddisk</NavDropdown.Item>
               <NavDropdown.Item href="">Chargers</NavDropdown.Item>
               <NavDropdown.Item href="">Phone Covers</NavDropdown.Item>

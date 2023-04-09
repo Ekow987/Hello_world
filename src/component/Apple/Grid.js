@@ -7,7 +7,6 @@ import Typography from "@material-ui/core/Typography";
 import ButtonBase from "@material-ui/core/ButtonBase";
 // import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
-
 import StripeCheckoutButton from "../stripButton";
 
 const useStyles = makeStyles((theme) => ({
@@ -35,7 +34,7 @@ export default function ComplexGrid(props) {
   // const totalPrice = 58;
   const classes = useStyles();
 
-  const { title, text, totalPrice, hplaps } = props;
+  const { title, text, totalPrice, applelaps } = props;
 
   return (
     <div className="body">
@@ -43,7 +42,7 @@ export default function ComplexGrid(props) {
         <Grid container spacing={2}>
           <Grid item>
             <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="" src={hplaps} />
+              <img className={classes.img} alt="" src={applelaps} />
             </ButtonBase>
           </Grid>
           <Grid item xs={12} sm container>
@@ -77,7 +76,6 @@ export default function ComplexGrid(props) {
         {/* <AddShoppingCartIcon /> */}
         {/* </IconButton> */}
       </Paper>
-      
     </div>
   );
 }

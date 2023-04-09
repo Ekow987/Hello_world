@@ -10,6 +10,12 @@ import './component/bootstrap.min.css';
 import Addrecord from './component/Addrecord';
 import Myhp from './component/Addhp';
 import Myleno from './component/Addleno';
+import Accer from './component/AddAccer';
+import Mac from './component/AddMac';
+import Dell from './component/AddDell';
+import Access from './component/Acessories/Card';
+
+
 
 
 
@@ -43,7 +49,23 @@ const Routes=()=>{
      <Route exact path="/Leno">
      <Myleno/>
      </Route>  
+     <Route exact path="/Accer">
+     < Accer/>
+     </Route>  
+     <Route exact path="/Mac">
+     <Mac/>
+     </Route>  
+     <Route exact path="/Dell">
+     <Dell/>
+     </Route>  
+     <Route exact path="/Pendrive">
+     <Access/>
+     </Route>  
+
+
+
     </Switch>
+   
   
   </BrowserRouter>
   );

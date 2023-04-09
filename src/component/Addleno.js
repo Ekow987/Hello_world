@@ -8,6 +8,7 @@ import imageUr7 from "../component/Laptopimg/leno5.jpg";
 import imageUr8 from "../component/Laptopimg/leno7.jpg";
 import imageUr9 from "../component/Laptopimg/leno8.jpg";
 import imageUr10 from "../component/Laptopimg/leno9.jpg";
+import Foot from "../component/Footer";
 // import imageUr11 from "../component/Laptopimg/leno10.jpg";
 
 
@@ -27,6 +28,7 @@ function Addleno() {
       <Lenovo title="Lenovo Thinkpad Yoga" text="Lenovo Thinkpad Yoga 11e Laptop 11.6inch Touchscreen Convertible Ultrabook PC, Intel Quad Core Processor, 128GB Solid State Drive, 4GB DDR3 RAM, HD Webcam, LED, HDMI, Bluetooth, Windows 10 (Renewed)" lenolap={imageUr8} totalPrice={129} />
       <Lenovo title="Lenovo Chromebook" text="Lenovo Chromebook S330 14in Laptop Computer, Mediatek MT8173C up to 1.7 Ghz, 4GB RAM, 32GB eMMC SSD, Bluetooth, HDMI, USB-C, SD Card Reader, Chrome OS, Black (Renewed)" lenolap={imageUr9} totalPrice={40} />
       <Lenovo title="Lenovo Thinkpad T430 " text="Lenovo Thinkpad T430 Built Business Laptop Computer (Intel Dual Core i5 Up to 3.3 Ghz Processor, 8GB Memory, 320GB HDD, Webcam, DVD, Windows 10 Professional) (Renewed)"  lenolap={imageUr10} totalPrice={180} />
+      <Foot/>
     </div>
   );
 }
